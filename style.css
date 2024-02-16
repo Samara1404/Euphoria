@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 20px auto;
+}
+a{
+    text-decoration: none;
+}
+input{
+    width:350px;
+    height: 40px;
+    border-radius: 8px;
+
+background: rgb(246, 246, 246);
+    border: none;
+    border-radius: 5px;
+   
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+   
+
