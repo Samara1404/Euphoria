@@ -4,10 +4,11 @@
 }
 body{
     font-family: sans-serif;
+    background: cadetblue;
 }
 .container{
-    width: 80%;
-    margin: 20px auto;
+    width: 100%;
+    margin: 20px 0;
 }
 a{
     text-decoration: none;
@@ -23,10 +24,82 @@ background: rgb(246, 246, 246);
    
 }
 .header{
+    margin: 0 5%;
+    width: 90% auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+.nav a{
+    margin: 0 25px;
+}
+.icons {
+    display: flex;
+    gap: 15px;
+}
+.icon1:hover{
+    background: blue;
+}
+.summer{
+    height: 716px;
+}
+.img0{
+    position: absolute,
+    -100px -100px,
+    top left;
     
-   
+}
+#summer{
+    height: 716px;
+    background-image: 
+    
+    url('/img/Vector\ back.svg'),
+    url('/img/Vector\ forward.svg'),
+    url("/img/main\ img.svg");
+    background-repeat: no-repeat;
+        opacity: 1;
+    background-position:
+    10px 330px,
+    1400px 330px,
+    
+      0 0,
+      bottom left;
+    }
+  .summer-left h2 {
+    color: rgb(255, 255, 255);    
+    font-size: 32px;
+    font-weight: 500;  
+    margin: 30px 0px; 
+  }
+  .summer-left h1{
+    color: rgb(255, 255, 255);
+font-family: Core Sans C;
+font-size: 78px;
+font-weight: 800;
+margin: 20px 0px;
 
+  }
+  .summer-left h3{
+    color: rgb(255, 255, 255);
+font-family: Core Sans C;
+font-size: 32px;
+font-weight: 500;
+  }
+  button{ 
+width: 250px;
+height: 61px;
+border: none;
+border-radius: 10px;
+color: rgb(60, 66, 66);
+font-family: Causten;
+font-size: 24px;
+font-weight: 700;
+margin: 190px 10px;
+  }
+.summer-left{
+   
+ margin: 20px 70px;
+}
+.high-left{
+    
+}
